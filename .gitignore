@@ -1,0 +1,19 @@
+# Default ignored files
+#2.1
+#a
+build/*
+#b
+*.jar
+!module2.jar
+#c
+application-local.properties
+#d
+/.idea
+#e
+.idea_copy/*
+!workspace.xml
+
+#2.2
+/build
+!module2.jar
+#"файл module2.jar из п 2.1.b по-прежнему не должен игнорироваться"
